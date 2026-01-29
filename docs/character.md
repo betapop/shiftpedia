@@ -115,21 +115,21 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta mi a neque rh
 ## Likes and Dislikes
 <div class="grid cards" markdown>
 
--  __They like...__
+-  __:material-heart: They like...__
     <p>
-    * like here
-    * like here
-    * like here
-    * like here
-    * like here
+    * [x] like here
+    * [x] like here
+    * [x] like here
+    * [x] like here
+    * [x] like here
     </p>
--  __They dislike...__
+-  __:material-heart-broken: They dislike...__
     <p>
-    * dislike here
-    * dislike here
-    * dislike here
-    * dislike here
-    * dislike here
+    * [ ] dislike here
+    * [ ] dislike here
+    * [ ] dislike here
+    * [ ] dislike here
+    * [ ] dislike here
     </p>  
 
 </div>
