@@ -1,31 +1,47 @@
-site_name: My Docs
+site_name: Shiftpedia
+site_url: https://betapop.github.io/shiftpedia/
+
+extra_css:
+  - stylesheets/extra.css
+
 theme:
   name: material
+  custom_dir: overrides
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.footer
+    - content.tooltips
+
   palette:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
       toggle:
         icon: material/brightness-auto
         name: Switch to light mode
+      primary: custom
+      accent: orange
 
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
       toggle:
-        icon: material/brightness-7
+        icon: material/weather-sunny
         name: Switch to dark mode
+      primary: custom
+      accent: orange
 
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       toggle:
-        icon: material/brightness-4
+        icon: material/weather-night
         name: Switch to system preference
-
-      primary: teal
-      accent: cyan
+      primary: custom
 
 markdown_extensions:
+  - abbr
+  - pymdownx.snippets
   - attr_list
   - md_in_html
   - admonition
@@ -38,3 +54,15 @@ markdown_extensions:
 
   - pymdownx.tasklist:
       custom_checkbox: true
+
+plugins:
+  - glightbox
+  - blog
+  - search
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/betapop/shiftpedia
+
+copyright: Copyright &copy; 2026 Made by Betapop
