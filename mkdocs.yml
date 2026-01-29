@@ -12,6 +12,7 @@ theme:
     - navigation.tabs
     - navigation.footer
     - content.tooltips
+    - navigation.path
 
   palette:
     # Palette toggle for automatic mode

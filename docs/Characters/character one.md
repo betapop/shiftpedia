@@ -35,7 +35,7 @@
 </style>
 
 <div class="chara-float text-float" markdown>
-**Character Name** dolor sit amet, consectetur adipiscing elit. Sed porta mi a neque rhoncus placerat. [Pellentesque] a nisl quis quam interdum iaculis quis vitae lectus. Praesent dignissim mauris est, id laoreet massa imperdiet quis. Mauris id libero mollis, consequat mi venenatis, sollicitudin dolor. Sed posuere mauris quis semper rhoncus. Morbi a ex efficitur lorem posuere bibendum.
+**Character Name** dolor sit amet, consectetur adipiscing elit. Sed porta mi a neque rhoncus placerat. Pellentesque a nisl quis quam interdum iaculis quis vitae lectus. Praesent dignissim mauris est, id laoreet massa imperdiet quis. Mauris id libero mollis, consequat mi venenatis, sollicitudin dolor. Sed posuere mauris quis semper rhoncus. Morbi a ex efficitur lorem posuere bibendum.
 
 *[Pellentesque]: This is some little info about the thing.
 
@@ -138,6 +138,17 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta mi a neque rh
 
 ## Relationships
 ### Character Name
+<div markdown>
+
+<!-- remove -outline to make a full heart -->
+
+*relationship* |
+:material-heart-outline:
+:material-heart-outline:
+:material-heart-outline:
+:material-heart-outline:
+:material-heart-outline:
+</div>
 ![Image title](https://dummyimage.com/150x150/eee/aaa){ align=left }
 
 
@@ -145,6 +156,17 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam cursus, dolor in
 
 ---
 ### Character Name
+<div markdown>
+
+<!-- remove -outline to make a full heart -->
+
+*relationship* |
+:material-heart-outline:
+:material-heart-outline:
+:material-heart-outline:
+:material-heart-outline:
+:material-heart-outline:
+</div>
 ![Image title](https://dummyimage.com/150x150/eee/aaa){ align=left }
 
 
@@ -156,6 +178,31 @@ IDk man Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam cursus, 
 * Morbi a ex efficitur lorem posuere bibendum. In vulputate ex accumsan magna condimentum, vitae pretium diam consequat. 
 * Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum ullamcorper, felis ac rutrum rhoncus, urna lorem malesuada ex, a faucibus urna nisl eu massa. 
 * Vivamus quis lectus enim. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque pretium lorem vitae tincidunt tempor. 
+
+## Quirk Box
+Small facts that aren't long enough for a specific section.
+<div class="grid cards" markdown>
+
+- <p>
+    * Small trivia here.
+    * Small trivia here.
+  </p>
+
+</div>
+<div class="grid cards" markdown>
+
+- __:material-playlist-music: Playlist__<p>
+    :material-music: Main theme:
+    <br>
+    - Song Name by Artist
+
+    :material-music: Playlist Link:
+    <br>
+
+    - [Youtube Music](#)
+  </p>
+
+</div>
 
 ## Links
 [Gallery :fontawesome-solid-photo-film:](/shiftpedia/Characters/Gallery/character1-gallery/){ .md-button } 

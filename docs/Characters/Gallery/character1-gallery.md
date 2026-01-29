@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 ## 150 x 150
 
 <div markdown>
